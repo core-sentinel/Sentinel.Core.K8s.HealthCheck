@@ -1,0 +1,99 @@
+<mxfile host="65bd71144e">
+    <diagram id="aw5qlV3jnIm1L8w_NxrF" name="Page-1">
+        <mxGraphModel dx="807" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2" parent="1" vertex="1">
+                    <mxGeometry x="40" y="60.4" width="80.4" height="25.200000000000003" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="cosmos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="43" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.376;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;" parent="1" source="8" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=70;entryDy=65;entryPerimeter=0;fontSize=16;" parent="1" source="8" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Policy Aggregator" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="287" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=120;entryDy=95;entryPerimeter=0;fontSize=16;" parent="1" source="13" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.007;entryY=0.879;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" parent="1" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220.94139440889194" y="526" as="sourcePoint"/>
+                        <mxPoint x="300.2099999999998" y="467.24" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Background Service&lt;br&gt;Factory" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="450" width="180" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.64;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.007;exitY=0.219;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="511.47" y="203.36" as="sourcePoint"/>
+                        <mxPoint x="622.3399999999999" y="203.80000000000018" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="swimlane;startSize=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="140" width="210" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Policy Watcher BG" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=15;" parent="15" vertex="1">
+                    <mxGeometry x="20" y="20" width="170" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="V1Pods" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="5" vertex="1">
+                    <mxGeometry y="29" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="5" vertex="1">
+                    <mxGeometry y="54" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Policy&amp;nbsp;Watcher BG" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=15;" parent="15" vertex="1">
+                    <mxGeometry x="20" y="120" width="170" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="V1Deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="17" vertex="1">
+                    <mxGeometry y="29" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="17" vertex="1">
+                    <mxGeometry y="54" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Policy&amp;nbsp;Watcher BG" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=15;" parent="15" vertex="1">
+                    <mxGeometry x="20" y="220" width="170" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="V1Namespace" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="20" vertex="1">
+                    <mxGeometry y="29" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" parent="20" vertex="1">
+                    <mxGeometry y="54" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Policy&amp;nbsp;Watcher BG" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=15;" vertex="1" parent="15">
+                    <mxGeometry x="20" y="320" width="170" height="79" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="34">
+                    <mxGeometry y="29" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="34">
+                    <mxGeometry y="54" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.035;exitY=0.577;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=16;" parent="1" source="23" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="json policy &lt;br&gt;interpreter" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="140" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="710" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Policy Result Repo" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="160" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="43" width="60" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

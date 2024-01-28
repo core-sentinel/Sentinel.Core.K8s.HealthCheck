@@ -1,0 +1,6 @@
+@Sentinel.Worker.PolicyValidator_HostAddress = http://localhost:5140
+
+GET {{Sentinel.Worker.PolicyValidator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
